@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_hide_keyboard</string>
+	<string>pan_keyboard_hide</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -19,9 +19,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>hide keyboard when touch background</string>
+	<string>pan_keyboard_hide</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>hide keyboard</string>
+	<string>pan_keyboard_hide</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
