@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pan_single_line</string>
+	<string>pan_getassoctate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark ======  &lt;# text #&gt;  ======</string>
+	<string>objc_getAssociatedObject(self, @selector(&lt;# var #&gt;));</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>79D802FB-9867-4E6E-B9C0-4F1E793B35CB</string>
+	<string>207482B2-11FB-4B30-AEDF-184F8AB5DD10</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pan_single_line</string>
+	<string>pan_getassoctate</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pan_single_line</string>
+	<string>pan_getassoctate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

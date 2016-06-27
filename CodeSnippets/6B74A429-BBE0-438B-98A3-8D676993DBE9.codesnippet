@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pan_single_line</string>
+	<string>pan_gcd_after</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark ======  &lt;# text #&gt;  ======</string>
+	<string>dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, &lt;# s #&gt; * NSEC_PER_SEC);
+        dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+            &lt;# code #&gt;
+        });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>79D802FB-9867-4E6E-B9C0-4F1E793B35CB</string>
+	<string>6B74A429-BBE0-438B-98A3-8D676993DBE9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pan_single_line</string>
+	<string>pan_gcd_after</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pan_single_line</string>
+	<string>pan_gcd_after</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pan_single_line</string>
+	<string>pan_min_precomplier_macro</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark ======  &lt;# text #&gt;  ======</string>
+	<string>#if __IPHONE_OS_VERSION_MIN_REQUIRED &gt;= &lt;# version #&gt;//如ios7:7000
+
+#else
+
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>79D802FB-9867-4E6E-B9C0-4F1E793B35CB</string>
+	<string>1C3969F7-C8B4-41EA-89C3-F146C58FEDD4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pan_single_line</string>
+	<string>最小支持版本</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pan_single_line</string>
+	<string>pan_min_precomplier_macro</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
