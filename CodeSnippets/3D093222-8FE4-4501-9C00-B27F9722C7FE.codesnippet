@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pan_clang_ignore_declarations</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+&lt;# code #&gt;
+#pragma clang diagnostic pop</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3D093222-8FE4-4501-9C00-B27F9722C7FE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>pan_clang_ignore_declarations</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>pan_clang_ignore_declarations</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
