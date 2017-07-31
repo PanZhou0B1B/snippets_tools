@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>imx_file_roles</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)dealloc{
+}
+#pragma mark ======  public  ======
+/*
+ public methods which declared in *.h file
+ */
+#pragma mark ======  life cycle  ======
+/*
+ e.g. - (void)viewDidLoad
+ */
+#pragma mark ======  delegate  ======
+/*
+ a set of delegates:customs &amp; systems
+ */
+#pragma mark ======  event  ======
+/*
+ e.g. UIButton Click || UIGestures
+*/
+#pragma mark ======  private  ======
+/*
+ relative to publics above,just be used in *.m file
+ */
+#pragma mark ======  getter &amp; setter  ======
+/*
+ about property
+ */
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A9107246-7E2F-4155-A635-DC66EB18F013</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>imx_file_roles</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>file roles define</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

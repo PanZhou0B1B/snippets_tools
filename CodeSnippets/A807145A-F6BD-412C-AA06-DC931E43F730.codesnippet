@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pan_keyboard_hide</string>
+	<string>imx_keyboard_hide</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -19,9 +19,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pan_keyboard_hide</string>
+	<string>imx_keyboard_hide</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pan_keyboard_hide</string>
+	<string>keyboard_hide in UIs</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pan_static_const_var</string>
+	<string>imx_static_const_var</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>static const NSTimeInterval static_const_&lt;#var#&gt; = &lt;#intiial#&gt;;</string>
@@ -15,9 +15,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pan_static_const_var</string>
+	<string>imx_static_const_var</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pan_static_const_var</string>
+	<string>static_const_var define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

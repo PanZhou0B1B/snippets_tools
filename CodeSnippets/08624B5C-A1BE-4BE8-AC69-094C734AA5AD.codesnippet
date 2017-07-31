@@ -3,23 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pan_private_category</string>
+	<string>imx_debug_macro</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#class name#&gt; (Private)
-&lt;#method#&gt;
-@end</string>
+	<string>#ifdef DEBUG
+        
+        &lt;# do DEBUG stuff #&gt;
+#else
+        &lt;# do un DEBUG stuff #&gt;
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>27493307-0E64-4A11-A5F7-0A1D16532B71</string>
+	<string>08624B5C-A1BE-4BE8-AC69-094C734AA5AD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pan_private_category</string>
+	<string>imx_debug_macro</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pan_private_category</string>
+	<string>debug macro define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

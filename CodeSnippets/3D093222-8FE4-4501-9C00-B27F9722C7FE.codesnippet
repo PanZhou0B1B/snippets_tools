@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pan_clang_ignore_declarations</string>
+	<string>imx_clang_ignore_declarations</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -18,9 +18,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pan_clang_ignore_declarations</string>
+	<string>imx_clang_ignore_declarations</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pan_clang_ignore_declarations</string>
+	<string>clang ignore warning</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

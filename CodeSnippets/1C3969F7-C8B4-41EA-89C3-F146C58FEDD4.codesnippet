@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pan_min_precomplier_macro</string>
+	<string>imx_min_precomplier_macro</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -19,9 +19,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>最小支持版本</string>
+	<string>imx_min_precomplier_macro</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pan_min_precomplier_macro</string>
+	<string>min_version define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

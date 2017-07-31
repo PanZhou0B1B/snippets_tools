@@ -3,7 +3,7 @@ Xcode中经常使用的snippets代码段
 
 执行步骤：
 
-1. git clone https://github.com/tangqiaoboy/xcode_tool
+1. git clone https://github.com/PanZhow/snippets_tools.git
 2. cd xcode_tool
 3. ./setup_snippets.sh
 
