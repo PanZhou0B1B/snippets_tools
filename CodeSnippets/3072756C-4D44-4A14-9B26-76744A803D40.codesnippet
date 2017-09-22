@@ -3,35 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>imx_file_roles</string>
+	<string>imx_block_param</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)dealloc{
-}
-#pragma mark ======  public  ======
-
-#pragma mark ======  life cycle  ======
-
-#pragma mark ======  delegate  ======
-
-#pragma mark ======  event  ======
-
-#pragma mark ======  private  ======
-
-#pragma mark ======  getter &amp; setter  ======
-
-</string>
+	<string>(void(^)())&lt;#blockname#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A9107246-7E2F-4155-A635-DC66EB18F013</string>
+	<string>3072756C-4D44-4A14-9B26-76744A803D40</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>imx_file_roles</string>
+	<string>block param</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>file roles define</string>
+	<string>block param</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
