@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__strong __typeof(weak&lt;# class name #&gt;)strong&lt;#instance#&gt; = weak&lt;# class instance #&gt;;</string>
+	<string>__strong __typeof(weakSelf)strongSelf = weakSelf;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>333A599D-BEB0-4D7C-A40B-BCA25300868D</string>
 	<key>IDECodeSnippetLanguage</key>
