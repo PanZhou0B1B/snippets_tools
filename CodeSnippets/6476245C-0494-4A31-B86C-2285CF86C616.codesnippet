@@ -9,8 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (&lt;# class name #&gt;)sharedInstance
-{
+	<string>+ (&lt;# class name #&gt; *)sharedInstance{
     static &lt;# class name #&gt; *instance=nil;
     static dispatch_once_t onceToken;
     dispatch_once(&amp;onceToken, ^{

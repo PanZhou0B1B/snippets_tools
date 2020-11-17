@@ -3,37 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>imx_file_roles</string>
+	<string>imx_ignored_undeclared</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)dealloc{
-}
-#pragma mark - Public
-
-#pragma mark - Life Cycle
-
-#pragma mark - protocol
-
-#pragma mark - Delegate
-
-#pragma mark - Event
-
-#pragma mark - Private
-
-#pragma mark - Getter &amp; Setter
-
-</string>
+	<string>#pragma clang diagnostic push
+    #pragma clang diagnostic ignored "-Wundeclared-selector"
+&lt;# action #&gt;
+    #pragma clang diagnostic pop</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A9107246-7E2F-4155-A635-DC66EB18F013</string>
+	<string>1D8ABE40-5FA3-44CE-A6B5-35DF45598E9E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>imx_file_roles</string>
+	<string>imx_ignored_undeclared</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>file roles define</string>
+	<string>imx_ignored_undeclared</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
