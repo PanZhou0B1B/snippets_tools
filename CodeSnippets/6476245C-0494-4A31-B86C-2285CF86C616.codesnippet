@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>imx_shared_instance</string>
+	<string>imx_share_instance</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (&lt;# class name #&gt; *)sharedInstance{
+	<string>+ (&lt;# class name #&gt; *)shareInstance{
     static &lt;# class name #&gt; *instance=nil;
     static dispatch_once_t onceToken;
     dispatch_once(&amp;onceToken, ^{
@@ -22,9 +22,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>imx_shared_instance</string>
+	<string>imx_share_instance</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>shred_instance define</string>
+	<string>share_instance define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

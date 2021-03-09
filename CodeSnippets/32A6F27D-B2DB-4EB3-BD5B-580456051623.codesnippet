@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>imx_modi_annot</string>
+	<string>imx_temp_annotation</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#warning modify by &lt;# who #&gt;</string>
+	<string>//!!!!: temp annotation by &lt;# who #&gt; &lt;# why #&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A3135E12-02BF-4E30-9651-0674FFE371DF</string>
+	<string>32A6F27D-B2DB-4EB3-BD5B-580456051623</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>imx_modi_annot</string>
+	<string>imx_temp_annotation</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>imx_modi_annot</string>
+	<string>imx_temp_annotation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

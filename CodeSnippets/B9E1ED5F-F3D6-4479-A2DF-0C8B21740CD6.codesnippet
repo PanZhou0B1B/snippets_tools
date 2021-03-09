@@ -10,35 +10,59 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - UITableView Datasource
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
 }
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+    return self.datas.count;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 44;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *cellIdentifier = @"Cell";
-    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    
     if(cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
-    
     cell.textLabel.text = [NSString stringWithFormat:@"Cell %d", indexPath.row];
-    
     return cell;
 }
-
 #pragma mark - UITableView Delegate methods
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+}
+
+#pragma mark - Private
+- (void)UIConfigs{
+    self.view.backgroundColor = [UIColor grayColor];
+    [self.view addSubview:self.list];
+    [self.list mas_updateConstraints:^(MASConstraintMaker * _Nonnull make) {
+        make.left.equalTo(self.view).offset(0);
+        make.top.equalTo(self.view).offset(0);
+        make.right.equalTo(self.view).offset(0);
+        make.bottom.equalTo(self.view).offset(0);
+    }];
+}
+#pragma mark - Getter &amp; Setter
+- (UITableView *)list{
+    if(!_list){
+        _list = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+        _list.dataSource = self;
+        _list.delegate = self;
+        _list.backgroundColor = [UIColor whiteColor];
+        UIView *footerView = [UIView new];
+        _list.tableFooterView = footerView;
+        _list.userInteractionEnabled = YES;
+        _list.separatorStyle = UITableViewCellSeparatorStyleNone;
+    }
+    return _list;
+}
+- (NSMutableArray *)datas{
+    if(!_datas){
+        _datas = [[NSMutableArray alloc] init];
+    }
+    return _datas;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B9E1ED5F-F3D6-4479-A2DF-0C8B21740CD6</string>
