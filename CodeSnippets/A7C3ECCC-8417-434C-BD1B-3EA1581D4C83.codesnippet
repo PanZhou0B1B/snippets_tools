@@ -3,32 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>imx_share_instance</string>
+	<string>imx_gloabal_var_extern</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (&lt;# class name #&gt; *)shareInstance{
-    /// &lt;# 需要注释必要理由 #&gt;
-    static &lt;# class name #&gt; *instance=nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&amp;onceToken, ^{
-        instance = [[&lt;# class name #&gt; alloc] init];
-    });
-    return instance;
-}</string>
+	<string>extern NSString *const &lt;# GlobalPrefix #&gt;&lt;# var #&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6476245C-0494-4A31-B86C-2285CF86C616</string>
+	<string>A7C3ECCC-8417-434C-BD1B-3EA1581D4C83</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>imx_share_instance</string>
+	<string>imx_gloabal_var_extern</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>share_instance define</string>
+	<string>imx_gloabal_var_extern</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

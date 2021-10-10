@@ -10,6 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)dealloc{
+    /// 禁止使用 self. 语法
 }
 #pragma mark - Public
 

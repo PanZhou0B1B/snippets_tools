@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, &lt;# s #&gt; * NSEC_PER_SEC);
+	<string>/// &lt;# 需要注明充分必要的使用缘由 #&gt;
+dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, &lt;# s #&gt; * NSEC_PER_SEC);
         dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
             &lt;# code #&gt;
         });</string>
