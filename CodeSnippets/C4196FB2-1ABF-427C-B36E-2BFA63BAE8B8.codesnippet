@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>imx_property_Array</string>
+	<string>imx_mainthread_assert_define</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic,copy)NSArray *&lt;# var #&gt;;</string>
+	<string>NSAssert([NSThread isMainThread], @"must be main thread");</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>766E3D1D-03BC-4E6E-ADD5-2CAC12254F7C</string>
+	<string>C4196FB2-1ABF-427C-B36E-2BFA63BAE8B8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>imx_property_Array</string>
+	<string>imx_mainthread_assert_define</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>imx_property_Array</string>
+	<string>imx_mainthread_assert_define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

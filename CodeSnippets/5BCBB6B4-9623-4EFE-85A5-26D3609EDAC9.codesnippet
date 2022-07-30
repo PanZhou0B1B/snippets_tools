@@ -6,7 +6,7 @@
 	<string>imx_weak_instance_define</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>__weak __typeof(self)weakSelf = self;</string>
